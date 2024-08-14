@@ -1,0 +1,32 @@
+// Import variables & mixins
+@import 'variables';
+@import 'mixins';
+
+// Import base styles
+@import 'base/reset';
+@import 'base/typography';
+
+//// Импортируем переменные и миксины
+//@import 'variables';
+//@import 'mixins';
+//
+//// Импортируем базовые стили
+//@import 'base/reset';
+//@import 'base/typography';
+//
+//// Импортируем макеты
+//@import 'layout/grid';
+//@import 'layout/container';
+//
+//// Импортируем стили компонентов
+//@import 'components/button';
+//@import 'components/toggleAnimation';
+//
+//// Импортируем стили страниц
+//@import 'pages/home';
+//@import 'pages/about';
+//
+//// Импортируем утилиты
+//@import 'utilities/helpers';
+
+
