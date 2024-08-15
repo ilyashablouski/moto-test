@@ -1,0 +1,42 @@
+// https://eslint.org/docs/user-guide/configuring
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["html", "import"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "max-len": ["warn", { "code": 108 }],
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "object-curly-spacing": ["error", "always"],
+    "template-curly-spacing": "error",
+    "semi": "error"
+  },
+  "settings": {
+    "html/html-extensions": [".html", ".hbs"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".html", ".hbs"]
+      }
+    }
+  },
+  "ignorePatterns": [".eslintrc.json"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "no-shadow": "off",
+        "no-undef": "off"
+      }
+    }
+  ]
+}
