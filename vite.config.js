@@ -1,18 +1,27 @@
 import { defineConfig } from 'vite';
-import path, { resolve } from 'path';
+import { resolve } from 'path';
 import handlebars from 'vite-plugin-handlebars';
 
-export default defineConfig({
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@styles': path.resolve(__dirname, 'src/styles'),
-    },
+const pageData = {
+  '/index.html': {
+    title: 'Main Page',
   },
+};
+
+export default defineConfig({
   plugins: [
     handlebars({
-      partialDirectory: resolve(__dirname, 'partials'),
+      context(pagePath) {
+        return pageData[pagePath] || {};
+      },
+      partialDirectory: [resolve(__dirname, 'src/components'), resolve(__dirname, 'src/template/partials')],
     }),
   ],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+      '@components': resolve(__dirname, 'src/components'),
+      '@styles': resolve(__dirname, 'src/styles'),
+    },
+  },
 });
