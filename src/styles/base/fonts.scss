@@ -1,0 +1,16 @@
+$primaryFontName: 'MessinaSans';
+$secondaryFontName: 'BrutalType';
+
+@include font($primaryFontName, $primaryFontName + '-Light', 300);
+@include font($primaryFontName, $primaryFontName + '-LightItalic', 300, 'italic');
+@include font($primaryFontName, $primaryFontName + '-Book', 350);
+@include font($primaryFontName, $primaryFontName + '-BookItalic', 350, 'italic');
+@include font($primaryFontName, $primaryFontName + '-Regular', 400);
+@include font($primaryFontName, $primaryFontName + '-SemiBold', 600);
+@include font($primaryFontName, $primaryFontName + '-Bold', 700);
+
+@include font($secondaryFontName, $secondaryFontName + '-Thin', 100);
+@include font($secondaryFontName, $secondaryFontName + '-ExtraLight', 200);
+@include font($secondaryFontName, $secondaryFontName + '-Light', 300);
+@include font($secondaryFontName, $secondaryFontName, 400);
+@include font($secondaryFontName, $secondaryFontName + '-Medium', 500);
