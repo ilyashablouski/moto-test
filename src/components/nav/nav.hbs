@@ -1,6 +1,7 @@
-<nav class="nav">
-  <ul class="nav__list">
-    <li class="nav__item"><a href="/">Home</a></li>
-    <li class="nav__item"><a href="/about">About</a></li>
+<nav x-data class='nav'>
+  <ul class='nav__list'>
+    <template x-for='(item, index) in $store.content.nav' :key='index'>
+      <li><a :href='item.url' x-text='item.label'></a></li>
+    </template>
   </ul>
 </nav>
