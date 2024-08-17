@@ -24,4 +24,11 @@ export default defineConfig({
       '@styles': resolve(__dirname, 'src/styles'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@styles/base/vars";',
+      },
+    },
+  },
 });
