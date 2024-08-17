@@ -1,0 +1,17 @@
+.page {
+  background: $color-black;
+
+  &__inner {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  &__wrapper {
+    border: 1px solid $color-gray;
+    overflow: hidden;
+  }
+
+  &__content {
+
+  }
+}

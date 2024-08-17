@@ -14,7 +14,7 @@ export default defineConfig({
       context(pagePath) {
         return pageData[pagePath] || {};
       },
-      partialDirectory: [resolve(__dirname, 'src/components'), resolve(__dirname, 'src/template/partials')],
+      partialDirectory: [resolve(__dirname, 'src/components')],
     }),
   ],
   resolve: {
@@ -27,7 +27,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: '@import "@styles/base/vars"; @import "@styles/base/colors";',
+        additionalData: '@import "@styles/common/vars"; @import "@styles/common/colors";',
       },
     },
   },

@@ -37,12 +37,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -53,12 +53,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -69,12 +69,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -85,12 +85,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         }
       ]
     },
@@ -109,12 +109,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -125,12 +125,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -141,12 +141,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -157,12 +157,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         }
       ]
     },
@@ -181,12 +181,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -197,12 +197,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -213,12 +213,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -229,12 +229,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         }
       ]
     },
@@ -253,12 +253,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -269,12 +269,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -285,12 +285,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -301,12 +301,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         }
       ]
     },
@@ -325,12 +325,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -341,12 +341,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -357,12 +357,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         },
         {
           "date": {
@@ -373,12 +373,12 @@
             "team",
             "design"
           ],
-          "description": "We’re thinking about all the ways in which mobility is changing.",
+          "title": "We’re thinking about all the ways in which mobility is changing.",
           "img": {
-            "url": "assets/images/article-1.jpg",
+            "url": "src/assets/images/article-1.jpg",
             "alt": "Moto picture"
           },
-          "text": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
+          "description": "One day this past summer, I came home from work to find a letter wedged in the crack of the heavy steel door that I have lived behind for the past six years. "
         }
       ]
     }
