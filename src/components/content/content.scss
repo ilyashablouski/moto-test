@@ -2,11 +2,13 @@
   display: flex;
 
   &__heading {
+    margin-right: 22px;
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-self: center;
-    flex: 0 0 478px;
+    flex: 1 1 478px;
+    min-width: 478px;
 
     &-heading {
       display: flex;
@@ -27,6 +29,7 @@
       line-height: 40px;
       font-weight: 400;
       color: $primaryColor;
+      white-space: pre-wrap;
     }
   }
 

@@ -19,13 +19,16 @@
   &__wrapper {
     margin-left: 50px;
     padding: 40px 0 0 40px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid $color-gray;
-    overflow: scroll;
   }
 
   &__content {
     padding-top: 24px;
     display: flex;
+    max-width: 1600px;
     height: 100%;
+    overflow: scroll;
   }
 }
