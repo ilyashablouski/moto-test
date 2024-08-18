@@ -1,0 +1,50 @@
+.article {
+  padding-left: 24px;
+  min-width: 405px;
+  border-left: 1px solid $color-gray;
+
+  &__date {
+    font-family: $secondaryFontName;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $primaryColor;
+  }
+
+  &__item {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__category {
+    font-family: $secondaryFontName;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $secondaryColor;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    padding-top: 8px;
+    font-family: $primaryFontName;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $primaryColor;
+  }
+
+  &__image {
+    padding-top: 24px;
+  }
+
+  &__description {
+    padding-top: 24px;
+    font-family: $primaryFontName;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $primaryColor;
+  }
+}

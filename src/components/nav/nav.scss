@@ -1,7 +1,9 @@
 .nav {
   font-family: $secondaryFontName;
   font-size: 11px;
+  line-height: 20px;
   font-weight: 400;
+  color: $secondaryColor;
 
   &__list {
     display: flex;

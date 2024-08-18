@@ -1,0 +1,18 @@
+<div class='article'>
+  <span class='article__date' x-text="article.date.month +',&nbsp;'+ article.date.year"></span>
+
+  <div class='article__item'>
+    <span
+      class='article__category'
+      x-text="article.category[0] + '&nbsp;∙&nbsp;' + article.category[1]"
+    ></span>
+
+    <p class='article__title' x-text='article.title'></p>
+
+    <div class='article__image'>
+      <img :src='article.img.url' :alt='article.img.alt' />
+    </div>
+
+    <p class='article__description' x-text='article.description'></p>
+  </div>
+</div>

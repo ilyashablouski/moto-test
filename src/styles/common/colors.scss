@@ -1,7 +1,7 @@
 $color-white: #f1f1f1;
 $color-black: #111111;
 $color-gray: #393a3a;
-$color-white-50: lighten($color-white, 50%);
+$color-white-50: transparentize($color-white, 0.5);
 
 $primaryColor: $color-white;
 $secondaryColor: $color-white-50;

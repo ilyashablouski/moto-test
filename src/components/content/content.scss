@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-self: center;
+    flex: 0 0 478px;
+
+    &-heading {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-year {
+      font-family: $secondaryFontName;
+      font-size: 11px;
+      line-height: 20px;
+      font-weight: 400;
+      color: $secondaryColor;
+    }
+
+    &-title {
+      font-family: $primaryFontName;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 400;
+      color: $primaryColor;
+    }
+  }
+
+  &__articles {
+    display: flex;
+    gap: 24px;
+  }
+
+}

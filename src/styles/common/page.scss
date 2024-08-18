@@ -1,17 +1,31 @@
 .page {
+  height: 100%;
   background: $color-black;
 
+  &__back-btn {
+    align-self: flex-end;
+    color: $primaryColor;
+    text-transform: uppercase;
+  }
+
   &__inner {
-    max-width: 1600px;
+    padding: 20px;
+    display: flex;
     margin: 0 auto;
+    max-width: 1600px;
+    height: 100%;
   }
 
   &__wrapper {
+    margin-left: 50px;
+    padding: 40px 0 0 40px;
     border: 1px solid $color-gray;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   &__content {
-
+    padding-top: 24px;
+    display: flex;
+    height: 100%;
   }
 }
