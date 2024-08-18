@@ -1,5 +1,5 @@
 <template x-for='(section, index) in $store.content.sections' :key='index'>
-  <section class='content'>
+  <section :id='section.heading.year' class='content'>
     <div class='content__heading'>
       <span class='content__heading-year' x-text='section.heading.year'></span>
       <span class='content__heading-title' x-text='section.heading.title'></span>
