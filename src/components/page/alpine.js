@@ -9,13 +9,15 @@ export default function animateBorder() {
           gsap.to(this.$refs.border, {
             paddingRight: '0px',
             translateX: '0px',
-            duration: 0.3,
+            duration: 0.7,
+            ease: 'power1.inOut',
           });
         } else {
           gsap.to(this.$refs.border, {
             paddingRight: '20px',
             translateX: '-20px',
-            duration: 0.3,
+            duration: 0.7,
+            ease: 'power1.inOut',
           });
         }
       });

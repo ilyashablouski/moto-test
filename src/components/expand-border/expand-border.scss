@@ -10,7 +10,13 @@
   &__back-btn {
     position: absolute;
     bottom: 0;
-    color: $primaryColor;
-    text-transform: uppercase;
+    left: -115px;
+
+    a {
+      padding: 10px;
+      display: block;
+      color: $primaryColor;
+      text-transform: uppercase;
+    }
   }
 }
