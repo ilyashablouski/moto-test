@@ -21,20 +21,5 @@
   <title>{{ title }}</title>
 </head>
 
-<body class="page">
-<div class="page__inner">
-  <div class="page__back-btn">
-    <a href="#">Back</a>
-  </div>
-  <div class="page__wrapper">
-    {{> header/header }}
-
-    <main x-data class="page__content">
-      {{> content/content}}
-    </main>
-  </div>
-</div>
-
-<script type="module" src="src/main.js"></script>
-</body>
+{{> page/page }}
 </html>

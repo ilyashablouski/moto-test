@@ -1,0 +1,18 @@
+<body x-data="animateBorder()" class="page">
+<div class="page__inner">
+  <div @mouseover="isHovered = true"
+       @mouseleave="isHovered = false"
+       class="page__wrapper">
+    {{> expand-border/expand-border }}
+    {{!> expand/expand }}
+    {{> header/header }}
+
+    <main x-data class="page__content">
+      {{> content/content}}
+    </main>
+  </div>
+</div>
+
+
+<script type="module" src="src/main.js"></script>
+</body>
