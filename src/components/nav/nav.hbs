@@ -1,7 +1,17 @@
-<nav x-data class='nav'>
+<nav class='nav'>
   <ul class='nav__list'>
     <template x-for='(item, index) in $store.content.nav' :key='index'>
-      <li><a :href='item.url' x-text='item.label'></a></li>
+      <li class='nav__item'>
+        <a
+          x-ref='navLinks'
+          :href='item.url'
+          x-text='item.label'
+          :data-target='item.label'
+          @click.prevent='scrollToSection($event)'
+          :class="{ 'active': isActive(item.label) }"
+          class='nav__link'
+        ></a>
+      </li>
     </template>
   </ul>
 </nav>

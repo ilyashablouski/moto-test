@@ -3,10 +3,21 @@
   font-size: 11px;
   line-height: 20px;
   font-weight: 400;
-  color: $secondaryColor;
 
   &__list {
     display: flex;
     gap: 24px;
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+    color: $secondaryColor;
+
+    &.active {
+      color: $primaryColor;
+    }
   }
 }
