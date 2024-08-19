@@ -23,8 +23,8 @@
     display: flex;
     max-width: 1600px;
     height: 100%;
-    //overflow-x: auto;
-    //scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     //scroll-behavior: smooth;
     z-index: 1;
   }

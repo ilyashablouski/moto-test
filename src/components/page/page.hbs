@@ -1,6 +1,6 @@
 <!--<body x-data="animateBorder()" class="page">-->
 <body class="page">
-<div x-data="horizontalScrollWithDrag()" class="page__inner">
+<div x-data="horizontalScrollWithDrag($store.content.nav[0].label)" class="page__inner">
   <div
     @mouseover="isHovered = true"
     @mouseleave="isHovered = false"
