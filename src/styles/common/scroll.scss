@@ -1,0 +1,8 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.drag-proxy {
+  position: absolute;
+  visibility: hidden;
+}
