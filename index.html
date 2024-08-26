@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link
+    rel="preload"
+    href="/assets/MessinaSans-Regular-D8OgXm5S.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="/assets/BrutalType-527EPtkT.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Page</title>
+  <script type="module" crossorigin src="/assets/index-CExa3EZJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CQH9S2ys.css">
+</head>
+
+<!--<body x-data="animateBorder()" class="page">-->
+<body class="page">
+<div x-data="horizontalScrollWithDrag()" class="page__inner">
+  <div
+    @mouseover="isHovered = true"
+    @mouseleave="isHovered = false"
+    class="page__wrapper">
+
+    <header class="header">
+      <nav class='nav'>
+        <ul class='nav__list'>
+          <template x-for='(item, index) in $store.content.nav' :key='index'>
+            <li class='nav__item'>
+              <a
+                x-ref='navLinks'
+                :href='item.url'
+                x-text='item.label'
+                :data-section='item.label'
+                @click.prevent='scrollToSection($event)'
+                :class="{ 'active': isActive(item.label) }"
+                class='nav__link'
+              ></a>
+            </li>
+          </template>
+        </ul>
+      </nav></header>
+    <main x-ref="scrollContainer" class="page__content">
+      <template x-for='(section, index) in $store.content.sections' :key='index'>
+        <section :id='section.heading.year' class='content'>
+          <div class='content__articles'>
+            <div class="article article__heading">
+              <span class='article__heading-year' x-text='section.heading.year'></span>
+              <span class='article__heading-title' x-text='section.heading.title'></span>
+            </div>
+      
+            <template x-for='(article, index) in section.articles' :key='index'>
+              <div class='article'>
+                <span class='article__date' x-text="article.date.month +',&nbsp;'+ article.date.year"></span>
+              
+                <div class='article__item'>
+                  <span
+                    class='article__category'
+                    x-text="article.category[0] + '&nbsp;∙&nbsp;' + article.category[1]"
+                  ></span>
+              
+                  <p class='article__title' x-text='article.title'></p>
+              
+                  <div class='article__image'>
+                    <img :src='article.img.url' :alt='article.img.alt' />
+                  </div>
+              
+                  <!--    <p class='article__description' x-text='article.description'></p>-->
+                </div>
+              </div>      </template>
+          </div>
+        </section>
+      </template>    </main>
+    <div class="drag-proxy"></div>
+  </div>
+</div>
+
+
+</body></html>
