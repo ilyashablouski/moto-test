@@ -1,11 +1,11 @@
 <template x-for='(section, index) in $store.content.sections' :key='index'>
   <section :id='section.heading.year' class='content'>
-    <div class='content__heading'>
-      <span class='content__heading-year' x-text='section.heading.year'></span>
-      <span class='content__heading-title' x-text='section.heading.title'></span>
-    </div>
-
     <div class='content__articles'>
+      <div class="article article__heading">
+        <span class='article__heading-year' x-text='section.heading.year'></span>
+        <span class='article__heading-title' x-text='section.heading.title'></span>
+      </div>
+
       <template x-for='(article, index) in section.articles' :key='index'>
         {{> article/article }}
       </template>

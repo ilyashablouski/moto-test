@@ -1,43 +1,23 @@
 .content {
-  padding-right: 210px;
-  display: flex;
-  //scroll-snap-align: start;
-
-  &__heading {
-    margin-right: 22px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-self: center;
-    flex: 1 1 478px;
-    min-width: 478px;
-
-    &-heading {
-      display: flex;
-      flex-direction: column;
-    }
-
-    &-year {
-      font-family: $secondaryFontName;
-      font-size: 11px;
-      line-height: 20px;
-      font-weight: 400;
-      color: $secondaryColor;
-    }
-
-    &-title {
-      font-family: $primaryFontName;
-      font-size: 32px;
-      line-height: 40px;
-      font-weight: 400;
-      color: $primaryColor;
-      white-space: pre-wrap;
-    }
-  }
+  //padding: 100px 20px 20px 20px;
+  //padding-right: 210px;
+  //display: flex;
+  //justify-content: space-between;
+  //flex-direction: column;
+  flex-shrink: 0;
+  //height: 100vh;
+  //min-width: 500px;
+  //width: 40vw;
+  //max-width: 700px;
+  //overflow: hidden;
+  border: 1px solid red;
 
   &__articles {
     display: flex;
-    gap: 24px;
+    //gap: 24px;
+    height: 100%;
+    border: 1px solid blue;
   }
 
 }
+

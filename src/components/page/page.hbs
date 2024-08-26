@@ -1,17 +1,18 @@
 <!--<body x-data="animateBorder()" class="page">-->
 <body class="page">
-<div x-data="horizontalScrollWithDrag($store.content.nav[0].label)" class="page__inner">
+<div x-data="horizontalScrollWithDrag()" class="page__inner">
   <div
     @mouseover="isHovered = true"
     @mouseleave="isHovered = false"
     class="page__wrapper">
-    {{> expand-border/expand-border }}
+    {{!> expand-border/expand-border }}
 
     {{> header/header }}
 
     <main x-ref="scrollContainer" class="page__content">
       {{> content/content}}
     </main>
+    <div class="drag-proxy"></div>
   </div>
 </div>
 

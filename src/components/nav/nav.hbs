@@ -6,7 +6,7 @@
           x-ref='navLinks'
           :href='item.url'
           x-text='item.label'
-          :data-target='item.label'
+          :data-section='item.label'
           @click.prevent='scrollToSection($event)'
           :class="{ 'active': isActive(item.label) }"
           class='nav__link'
