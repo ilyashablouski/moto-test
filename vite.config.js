@@ -9,6 +9,7 @@ const pageData = {
 };
 
 export default defineConfig({
+  base: '/moto-test/',
   plugins: [
     handlebars({
       context(pagePath) {
